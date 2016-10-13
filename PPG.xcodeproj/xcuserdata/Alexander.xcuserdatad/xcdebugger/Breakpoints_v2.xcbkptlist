@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PPG/PPG.m"
-            timestampString = "498065814.312755"
+            timestampString = "498072050.133227"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "306"
-            endingLineNumber = "306"
+            startingLineNumber = "310"
+            endingLineNumber = "310"
             landmarkName = "-calculate:where:definedAtX:andY:"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PPG/PPG.m"
-            timestampString = "498065814.312755"
+            timestampString = "498072050.133227"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "298"
-            endingLineNumber = "298"
+            startingLineNumber = "302"
+            endingLineNumber = "302"
             landmarkName = "-calculate:where:definedAtX:andY:"
             landmarkType = "7">
          </BreakpointContent>
@@ -38,15 +38,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PPG/PPG.m"
-            timestampString = "498065814.312755"
+            timestampString = "498072050.133227"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "257"
-            endingLineNumber = "257"
+            startingLineNumber = "261"
+            endingLineNumber = "261"
             landmarkName = "-calculateRedAndBlueAtX:andY:"
             landmarkType = "7">
          </BreakpointContent>
@@ -54,11 +54,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PPG/PPG.m"
-            timestampString = "498065814.312755"
+            timestampString = "498070106.506444"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "235"
@@ -70,16 +70,300 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PPG/PPG.m"
+            timestampString = "498070106.506444"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "227"
+            endingLineNumber = "227"
+            landmarkName = "-calculateGradientsAndRestoreGreenForStage1AtX:andY:forComponent:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PPG/PPG.m"
+            timestampString = "498070106.506444"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "191"
+            endingLineNumber = "191"
+            landmarkName = "-calculateGradientsAndRestoreGreenForStage1AtX:andY:forComponent:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PPG calculateGradientsAndRestoreGreenForStage1AtX:andY:forComponent:]"
+                  moduleName = "PPG"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Alexander/Documents/MIPT/Images-ABBYY/PPG/PPG/PPG.m"
+                  timestampString = "498069008.680496"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "192"
+                  endingLineNumber = "192"
+                  offsetFromSymbolStart = "2740">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PPG calculateGradientsAndRestoreGreenForStage1AtX:andY:forComponent:]"
+                  moduleName = "PPG"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Alexander/Documents/MIPT/Images-ABBYY/PPG/PPG/PPG.m"
+                  timestampString = "498069008.682775"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "192"
+                  endingLineNumber = "192"
+                  offsetFromSymbolStart = "2833">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PPG calculateGradientsAndRestoreGreenForStage1AtX:andY:forComponent:]"
+                  moduleName = "PPG"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Alexander/Documents/MIPT/Images-ABBYY/PPG/PPG/PPG.m"
+                  timestampString = "498069008.684365"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "192"
+                  endingLineNumber = "192"
+                  offsetFromSymbolStart = "2837">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PPG/PPG.m"
+            timestampString = "498070106.506444"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
+            landmarkName = "-calculateGradientsAndRestoreGreenForStage1AtX:andY:forComponent:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PPG calculateGradientsAndRestoreGreenForStage1AtX:andY:forComponent:]"
+                  moduleName = "PPG"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Alexander/Documents/MIPT/Images-ABBYY/PPG/PPG/PPG.m"
+                  timestampString = "498069010.250487"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "176"
+                  endingLineNumber = "176"
+                  offsetFromSymbolStart = "2099">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PPG calculateGradientsAndRestoreGreenForStage1AtX:andY:forComponent:]"
+                  moduleName = "PPG"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Alexander/Documents/MIPT/Images-ABBYY/PPG/PPG/PPG.m"
+                  timestampString = "498069010.25281"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "176"
+                  endingLineNumber = "176"
+                  offsetFromSymbolStart = "2192">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PPG calculateGradientsAndRestoreGreenForStage1AtX:andY:forComponent:]"
+                  moduleName = "PPG"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Alexander/Documents/MIPT/Images-ABBYY/PPG/PPG/PPG.m"
+                  timestampString = "498069010.254538"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "176"
+                  endingLineNumber = "176"
+                  offsetFromSymbolStart = "2196">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PPG/PPG.m"
+            timestampString = "498070106.506444"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "159"
+            endingLineNumber = "159"
+            landmarkName = "-calculateGradientsAndRestoreGreenForStage1AtX:andY:forComponent:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PPG calculateGradientsAndRestoreGreenForStage1AtX:andY:forComponent:]"
+                  moduleName = "PPG"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Alexander/Documents/MIPT/Images-ABBYY/PPG/PPG/PPG.m"
+                  timestampString = "498069011.70029"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "160"
+                  endingLineNumber = "160"
+                  offsetFromSymbolStart = "1464">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PPG calculateGradientsAndRestoreGreenForStage1AtX:andY:forComponent:]"
+                  moduleName = "PPG"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Alexander/Documents/MIPT/Images-ABBYY/PPG/PPG/PPG.m"
+                  timestampString = "498069011.702235"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "160"
+                  endingLineNumber = "160"
+                  offsetFromSymbolStart = "1557">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PPG calculateGradientsAndRestoreGreenForStage1AtX:andY:forComponent:]"
+                  moduleName = "PPG"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Alexander/Documents/MIPT/Images-ABBYY/PPG/PPG/PPG.m"
+                  timestampString = "498069011.703753"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "160"
+                  endingLineNumber = "160"
+                  offsetFromSymbolStart = "1561">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PPG/PPG.m"
+            timestampString = "498070106.506444"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "-calculateGradientsAndRestoreGreenForStage1AtX:andY:forComponent:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PPG calculateGradientsAndRestoreGreenForStage1AtX:andY:forComponent:]"
+                  moduleName = "PPG"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Alexander/Documents/MIPT/Images-ABBYY/PPG/PPG/PPG.m"
+                  timestampString = "498069013.219914"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "144"
+                  endingLineNumber = "144"
+                  offsetFromSymbolStart = "829">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PPG calculateGradientsAndRestoreGreenForStage1AtX:andY:forComponent:]"
+                  moduleName = "PPG"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Alexander/Documents/MIPT/Images-ABBYY/PPG/PPG/PPG.m"
+                  timestampString = "498069013.221233"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "144"
+                  endingLineNumber = "144"
+                  offsetFromSymbolStart = "922">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PPG calculateGradientsAndRestoreGreenForStage1AtX:andY:forComponent:]"
+                  moduleName = "PPG"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Alexander/Documents/MIPT/Images-ABBYY/PPG/PPG/PPG.m"
+                  timestampString = "498069013.222666"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "144"
+                  endingLineNumber = "144"
+                  offsetFromSymbolStart = "926">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PPG/PPG.m"
-            timestampString = "498066025.74577"
+            timestampString = "498070102.238149"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
             landmarkName = "-makePPG"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PPG/PPG.m"
+            timestampString = "498073370.359346"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "240"
+            endingLineNumber = "240"
+            landmarkName = "-calculateRedAndBlueAtX:andY:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
