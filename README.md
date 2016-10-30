@@ -1,6 +1,7 @@
 # PPG Algorithm
 
 Work log:
+
 [STARTED]  Stage 1: Calculate GREEN
 
 [FINISHED] Stage 1: Calculate GREEN
