@@ -399,17 +399,17 @@ typedef struct Stage1MinGradient {
 }
 
 - (CGFloat)mse {
-    @autoreleasepool {
-        CGFloat mse = 0.0;
-        
-        for(NSInteger iX = 0; iX < maxX; ++iX) {
-            for(NSInteger iY = 0; iY < maxY; ++iY) {
+    CGFloat mse = 0.0;
+    
+    for(NSInteger iX = 0; iX < maxX; ++iX) {
+        for(NSInteger iY = 0; iY < maxY; ++iY) {
+            @autoreleasepool {
                 mse += pow(fabs([self lAtX:iX andY:iY forImage:self.inImage] - [self lAtX:iX andY:iY forImage:self.originalImage]), 2);
             }
         }
-        
-        return mse * 1.0/maxX * 1.0/maxY;
     }
+    
+    return mse * 1.0/maxX * 1.0/maxY;
 }
 
 - (CGFloat)psnr {
