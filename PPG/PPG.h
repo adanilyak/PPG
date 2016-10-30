@@ -13,6 +13,7 @@
 
 @property (nonatomic) NSBitmapImageRep* inImage;
 @property (nonatomic) NSBitmapImageRep* outImage;
+@property (nonatomic) NSBitmapImageRep* originalImage;
 
 - (instancetype)init;
 - (void)loadInImage;

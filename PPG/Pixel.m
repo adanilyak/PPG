@@ -47,6 +47,10 @@
                                    1.0);
 }
 
+- (CGFloat)l {
+    return 1.0 * self.r + 4.5907 * self.g + 0.0601 * self.b;
+}
+
 #pragma mark - Setters
 
 - (void)setR:(NSInteger)newR {

@@ -25,6 +25,7 @@ typedef NS_ENUM(NSUInteger, ColorComponent) {
 @property (nonatomic) NSInteger b;
 
 @property (nonatomic) CGColorRef color;
+@property (nonatomic) CGFloat l;
 
 - (NSInteger)getByColorComponent:(ColorComponent)component;
 - (void)setValue:(NSInteger)value forComponent:(ColorComponent)component;

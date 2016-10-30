@@ -9,6 +9,8 @@
 #import "PPG.h"
 #import "Pixel.h"
 
+static NSString* formatOutString = @"/Users/Alexander/Desktop/%@.bmp";
+
 @interface PPG() {
     NSInteger minX, minY, maxX, maxY;
 }
@@ -25,6 +27,8 @@
         [self loadInImage];
         minX = 0, minY = 0;
         maxX = [self.inImage pixelsWide], maxY = [self.inImage pixelsHigh];
+        
+        [self loadOriginalImage];
     }
     return self;
 }
@@ -36,6 +40,10 @@
     self.outImage = [self.inImage copy];
 }
 
+- (void)loadOriginalImage {
+    self.originalImage = [self loadImage:@"original"];
+}
+
 - (NSBitmapImageRep*)loadImage:(NSString*)name {
     NSString* path = [[NSBundle mainBundle] pathForResource:name ofType:@"bmp" inDirectory:nil forLocalization:nil];
     NSImage* image = [[NSImage alloc] initWithContentsOfFile:path];
@@ -43,7 +51,7 @@
 }
 
 - (BOOL)saveImageWithName:(NSString*)name {
-    NSString* path = [NSString stringWithFormat:@"/Users/Alexander/Desktop/%@.bmp", name];;
+    NSString* path = [NSString stringWithFormat:formatOutString, name];;
     NSData* data = [self.inImage representationUsingType:NSBMPFileType properties:@{}];
     return [data writeToFile:path atomically:NO];
 }
@@ -69,6 +77,8 @@
     NSLog(@"[FINISHED] Stage 3: Calculate RED by BLUE and vice versa");
     
     NSLog(@"[SAVED]    with result %d", [self saveImageWithName:@"result"]);
+    
+    NSLog(@"[PSNR]     result: %f", [self psnr]);
 }
 
 - (void)calculateGreenWhereRedOrBlueDefined {
@@ -358,6 +368,12 @@ typedef struct Stage1MinGradient {
     return [pixel getByColorComponent:component];
 }
 
+- (CGFloat)lAtX:(NSInteger)x andY:(NSInteger)y forImage:(NSBitmapImageRep*)image {
+    Pixel* pixel = [Pixel new];
+    [image getPixel:pixel.data atX:x y:y];
+    return pixel.l;
+}
+
 #pragma mark - Printers
 
 - (void)debugInPrintAtX:(NSInteger)x andY:(NSInteger)y {
@@ -370,6 +386,37 @@ typedef struct Stage1MinGradient {
     Pixel* pixel = [Pixel new];
     [self.outImage getPixel:pixel.data atX:x y:y];
     NSLog(@"| X:%04ld Y:%04ld | R:%03ld | G:%03ld | B:%03ld |", x, y, pixel.r, pixel.g, pixel.b);
+}
+
+#pragma mark - PSNR
+
+- (CGFloat)maxL {
+    Pixel* pixel = [Pixel new];
+    [pixel setR:255];
+    [pixel setG:255];
+    [pixel setB:255];
+    return pixel.l;
+}
+
+- (CGFloat)mse {
+    @autoreleasepool {
+        CGFloat mse = 0.0;
+        
+        for(NSInteger iX = 0; iX < maxX; ++iX) {
+            for(NSInteger iY = 0; iY < maxY; ++iY) {
+                mse += pow(fabs([self lAtX:iX andY:iY forImage:self.inImage] - [self lAtX:iX andY:iY forImage:self.originalImage]), 2);
+            }
+        }
+        
+        return mse * 1.0/maxX * 1.0/maxY;
+    }
+}
+
+- (CGFloat)psnr {
+    CGFloat maxL = [self maxL];
+    CGFloat mse = [self mse];
+    
+    return 10 * log10(pow(maxL, 2) / mse);
 }
 
 @end
