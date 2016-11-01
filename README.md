@@ -16,4 +16,4 @@ Work log:
 
 [SAVED]    with result 1
 
-[PSNR]     result: **22.589325**
+[PSNR]     result: **24.280794**
