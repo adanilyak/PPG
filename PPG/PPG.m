@@ -63,13 +63,13 @@ static NSString* formatOutString = @"/Users/Alexander/Desktop/%@.bmp";
     [self calculateGreenWhereRedOrBlueDefined];
     self.inImage = [self.outImage copy];
     NSLog(@"[FINISHED] Stage 1: Calculate GREEN");
-    //NSLog(@"[SAVED]    with result %d", [self saveImageWithName:@"stage1"]);
+    NSLog(@"[SAVED]    with result %d", [self saveImageWithName:@"stage1"]);
     
     NSLog(@"[STARTED]  Stage 2: Calculate RED and BLUE by GREEN");
     [self calculateRedAndBlueUsingRestoredGreen];
     self.inImage = [self.outImage copy];
     NSLog(@"[FINISHED] Stage 2: Calculate RED and BLUE by GREEN");
-    //NSLog(@"[SAVED]    with result %d", [self saveImageWithName:@"stage2"]);
+    NSLog(@"[SAVED]    with result %d", [self saveImageWithName:@"stage2"]);
     
     NSLog(@"[STARTED]  Stage 3: Calculate RED by BLUE and vice versa");
     [self calculateRedWhereBlueDefinedAndViceVersa];

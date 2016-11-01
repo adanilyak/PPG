@@ -54,17 +54,17 @@
 #pragma mark - Setters
 
 - (void)setR:(NSInteger)newR {
-    r = MIN(255, newR);
+    r = MAX(0, MIN(255, newR));
     rawData[0] = r;
 }
 
 - (void)setG:(NSInteger)newG {
-    g = MIN(255, newG);
+    g = MAX(0, MIN(255, newG));
     rawData[1] = g;
 }
 
 - (void)setB:(NSInteger)newB {
-    b = MIN(255, newB);
+    b = MAX(0, MIN(255, newB));
     rawData[2] = b;
 }
 
